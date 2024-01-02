@@ -121,9 +121,9 @@ section{
 }
 
 .home-img img{
-    max-width: 150%;
-    width: 450px;
-    border-radius: 450%;
+    max-width: 450%;
+    width: 550px;
+    border-radius: 350%;
 }
 
 @media(max-width:1155px){
