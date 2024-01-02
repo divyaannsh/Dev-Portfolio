@@ -1,15 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
     font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-
+    font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     right: 0;
@@ -20,30 +19,28 @@ header{
     justify-content: space-between;
 }
 
-.logo a{
+.logo a {
     font-size: 30px;
     color: #111;
 }
 
-.navlist{
+.navlist {
     display: flex;
     align-items: center;
 }
 
-.navlist a{
+.navlist a {
     padding: 10px 20px;
     color: #111;
     font-size: 18px;
     transition: all .4s;
-
 }
 
-.navlist a:hover{
+.navlist a:hover {
     color: crimson;
-
 }
 
-.nav-btn a{
+.nav-btn a {
     padding: 10px 20px;
     border: 2px solid #111;
     border-radius: 10px;
@@ -52,55 +49,51 @@ header{
     transition: all .4s;
 }
 
-
-.nav-btn a:hover{
+.nav-btn a:hover {
     background-color: #111;
     color: crimson;
-
 }
 
-
-
-.menu i{
+.menu i {
     font-size: 30px;
     cursor: pointer;
     display: none;
 }
 
-section{
+section {
     padding: 60px 14%;
 }
 
-.home{
+.home {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     height: 100vh;
     width: 100%;
 }
 
-.home-text h3{
+.home-text h3 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.home-text h1{
+.home-text h1 {
     font-size: 60px;
     margin-bottom: 10px;
 }
 
-.home-text h4{
+.home-text h4 {
     font-size: 20px;
     margin-bottom: 10px;
     color: crimson;
 }
 
-.home-text p{
+.home-text p {
     font-size: 19px;
     margin-bottom: 20px;
 }
 
-.social-icon i{
+.social-icon i {
     font-size: 30px;
     width: 30px;
     height: 30px;
@@ -115,49 +108,45 @@ section{
     cursor: pointer;
 }
 
-.social-icon i:hover{
+.social-icon i:hover {
     background-color: crimson;
     color: #fff;
 }
 
-.home-img img{
+.home-img img {
     max-width: 450%;
     width: 550px;
     border-radius: 350%;
 }
 
-@media(max-width:1155px){
-
-    header{
+@media (max-width: 1155px) {
+    header {
         padding: 30px 5%;
     }
 
-    section{
+    section {
         padding: 60px 5%;
     }
-
 }
 
-@media(max-width:1024px){
-
-    .nav-btn a{
+@media (max-width: 1024px) {
+    .nav-btn a {
         display: none;
     }
 
-    .home-text h1{
+    .home-text h1 {
         font-size: 55px;
     }
 }
 
-@media(max-width:990px){
-
-    .menu i{
+@media (max-width: 990px) {
+    .menu i {
         display: block;
     }
 
-    .navlist{
+    .navlist {
         position: absolute;
-        top:100%;
+        top: 100%;
         right: -100%;
         background-color: #111;
         height: 100vh;
@@ -169,45 +158,45 @@ section{
         transition: all .4s;
     }
 
-    .navlist.active{
-    right: 0;
+    .navlist.active {
+        right: 0;
     }
 
-    .navlist a{
+    .navlist a {
         color: #fff;
         display: block;
-
     }
 
-    .home{
+    .home {
         display: flex;
         flex-direction: column;
     }
 
-    .home-text{
+    .home-text {
         order: 2;
         text-align: center;
     }
 
-    .home-text h1{
+    .home-text h1 {
         font-size: 45px;
     }
 }
 
-@media(max-width:490px){
-    .home-text h1{
+@media (max-width: 490px) {
+    .home-text h1 {
         font-size: 35px;
     }
 
-    .home-text p{
+    .home-text p {
         font-size: 17px;
     }
 }
 
 
-
-
-
-
+body {
+    
+    background-color: #f8f8f8;
+    color: #333;
+}
 
 
