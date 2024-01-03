@@ -114,8 +114,9 @@ section {
 }
 
 .home-img img {
-    max-width: 450%;
-    width: 550px;
+    max-width: 100%;
+    width: 350px;
+    height: auto;
     border-radius: 350%;
 }
 
