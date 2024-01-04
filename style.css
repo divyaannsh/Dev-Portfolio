@@ -7,7 +7,9 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-
+/* .bg{
+    background-color: ;
+} */
 header {
     position: fixed;
     top: 0;
@@ -97,7 +99,7 @@ section {
     font-size: 30px;
     width: 30px;
     height: 30px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(233, 221, 223);
     padding: 20px;
     display: inline-flex;
     align-items: center;
