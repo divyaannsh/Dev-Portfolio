@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body class="bg-deepBlue text-gray-800 font-sans">
-
+  
     <div class="container mx-auto mt-10">
-
+        <button class="bg-crimson-600 hover:bg-crimson-700 text-black py-2 px-4 rounded-md mb-4" onclick="goBack()">Go Back</button>
         <!-- Project Cards Container -->
         <div class="flex flex-wrap justify-center space-x-4 p-4">
 
@@ -103,3 +103,8 @@
                 </div>
 
 
+                <script>
+                    function goBack() {
+                        window.history.back();
+                    }
+                </script>

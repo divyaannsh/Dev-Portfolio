@@ -4,3 +4,4 @@ const menu = document.querySelector(".fa-bars")
 menu.addEventListener("click",()=>{
     navlist.classList.toggle("active");
 })
+
